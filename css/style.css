@@ -3,12 +3,7 @@
 /*FONT FAMILY*/
 /*FONT WEIGHT*/
 /*COLOR VARIABLE*/
-/*VERIABLE FOR RESPONSIVE
-
-$bp-1199: "screen and (max-width: 1199px)";
-$bp-991: "screen and (max-width: 991px)";
-$bp-767: "screen and (max-width: 767px)";
-$bp-575: "screen and (max-width: 575px)";*/
+/*VERIABLE FOR RESPONSIVE*/
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
@@ -140,5 +135,100 @@ img {
       height: 50px;
       width: 50px;
       margin-right: 7px; }
+
+@media only screen and (max-width: 1250px) and (min-width: 1199px) {
+  .skill-area .address-content div {
+    width: 250px; }
+  .skill-area .address-content :before {
+    width: 155px !important; } }
+@media screen and (max-width: 1199px) {
+  .left-col {
+    padding: 75px 0px 50px 40px; }
+
+  .address-content div {
+    width: calc(100% - 45px) !important; }
+  .address-content :before {
+    width: calc(100% - 100px) !important; } }
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 50px; }
+    h1 span {
+      font-size: 25px; }
+
+  h2 {
+    font-size: 24px; }
+
+  h3 {
+    font-size: 18px; }
+
+  .image-section {
+    margin-top: 60px; }
+    .image-section img {
+      width: 200px;
+      height: 200px; }
+
+  .left-col {
+    padding: 50px 0px 40px 25px; }
+
+  .right-col {
+    padding: 115px 40px 50px; }
+    .right-col h1 {
+      margin-bottom: 50px; }
+
+  .right-content-details {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 767px) {
+  .left-col {
+    padding: 40px 30px 20px; }
+
+  .image-section {
+    margin-top: 40px; }
+
+  .main-address {
+    margin-bottom: 25px; }
+
+  .content-area {
+    margin-bottom: 25px; }
+    .content-area h2 {
+      margin-bottom: 25px; }
+
+  .right-col {
+    padding: 45px 30px 20px; }
+    .right-col h1 {
+      margin-bottom: 40px; }
+
+  h1 {
+    font-size: 42px; }
+    h1 span {
+      font-size: 22px; }
+
+  h2 {
+    font-size: 22px; }
+
+  .right-content-details-left h3 {
+    margin-bottom: 4px; }
+
+  .right-content-area {
+    margin-bottom: 15px; }
+
+  .right-content-details {
+    margin-bottom: 15px; } }
+@media screen and (max-width: 575px) {
+  .image-section {
+    margin-top: 35px; }
+
+  .left-col {
+    padding: 40px 15px 5px; }
+
+  h1 {
+    font-size: 34px; }
+
+  .right-col {
+    padding: 35px 15px 10px; }
+    .right-col h1 {
+      margin-bottom: 25px; }
+
+  p {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
