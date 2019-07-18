@@ -20,12 +20,12 @@ $bold: 700;
 $white: #fff;
 $black: #3B3A3C;
 
-/*VERIABLE FOR RESPONSIVE
+/*VERIABLE FOR RESPONSIVE*/
 
 $bp-1199: "screen and (max-width: 1199px)";
 $bp-991: "screen and (max-width: 991px)";
 $bp-767: "screen and (max-width: 767px)";
-$bp-575: "screen and (max-width: 575px)";*/
+$bp-575: "screen and (max-width: 575px)";
 
 
 body{
@@ -202,6 +202,141 @@ img{
 			width: 50px;
 			margin-right: 7px;
 		}
+	}
+}
+
+
+
+@media only screen and (max-width: 1250px) and (min-width: 1199px) {
+	.skill-area{
+		.address-content{
+			div{
+				width: 250px;
+			}
+			:before{
+				width: 155px !important;
+			}
+		}
+		
+	}
+
+
+}
+@media #{$bp-1199}{
+.left-col {
+	padding: 75px 0px 50px 40px;
+}
+.address-content{
+			div{
+				width: calc(100% - 45px) !important;
+			}
+			:before{
+				width: calc(100% - 100px) !important;
+			}
+		}
+
+}
+
+@media #{$bp-991}{
+	h1 {
+		font-size: 50px;
+		span{
+			font-size: 25px;
+		}
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.image-section {
+		margin-top: 60px;
+		img{
+			width: 200px;
+			height: 200px;
+		}
+	}
+	.left-col {
+		padding: 50px 0px 40px 25px;
+	}
+	.right-col {
+		padding: 115px 40px 50px;
+		h1 {
+	    margin-bottom: 50px;
+	}
+}
+.right-content-details {
+	margin-bottom: 20px;
+}
+
+
+}
+
+
+@media #{$bp-767}{
+	.left-col {
+		padding: 40px 30px 20px;
+	}
+	.image-section {
+		margin-top: 40px;
+	}
+	.main-address {
+		margin-bottom: 25px;
+	}
+	.content-area {
+		margin-bottom: 25px;
+		h2 {
+			margin-bottom: 25px;
+		}
+	}
+	.right-col {
+		padding: 45px 30px 20px;
+		h1 {
+		    margin-bottom: 40px;
+		}
+	}
+	h1 {
+		font-size: 42px;
+		span{
+			font-size: 22px;
+		}
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.right-content-details-left{
+		h3{
+			margin-bottom: 4px;
+		}
+	}
+	.right-content-area {
+		margin-bottom: 15px;
+	}
+	.right-content-details {
+		margin-bottom: 15px;
+	}
+}
+
+
+@media #{$bp-575}{
+	.image-section {
+		margin-top: 35px;
+	}
+	.left-col {
+		padding: 40px 15px 5px;
+	}
+	h1 {
+		font-size: 34px;
+	}
+	.right-col {
+		padding: 35px 15px 10px;
+		 h1 {
+		    margin-bottom: 25px;
+		}
+	}
+	p {
+		font-size: 15px;
 	}
 }
 
